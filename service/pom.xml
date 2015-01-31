@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>se.rosscom</groupId>
+        <artifactId>TimeReader</artifactId>
+        <version>1.5-SNAPSHOT</version>
+    </parent>
+
+    <groupId>se.rosscom</groupId>
+    <artifactId>service</artifactId>
+    <name>service</name>
+    <packaging>jar</packaging>    
+    <url>http://maven.apache.org</url>
+
+
+    <repositories>
+        <repository>
+            <id>maven2</id>
+            <name>Repository -</name>
+            <url>http://repo.maven.apache.org/maven2/</url>
+        </repository>
+    </repositories>    
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mercuryapi.version>1.5.5.1</mercuryapi.version>
+        <ltkjava.version>1.0.0.6</ltkjava.version>
+        <javax.version>6.0</javax.version>
+    </properties>
+
+
+    <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
+        <resources>
+          <resource>
+            <directory>src/main/java</directory>
+          </resource>
+          <resource>
+            <directory>src/main/resources</directory>
+          </resource>
+        </resources>
+        <testResources>
+          <testResource>
+            <directory>src/test/java</directory>
+          </testResource>
+        </testResources>
+
+        <plugins>
+          
+            <plugin>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                <source>1.7</source>
+                <target>1.7</target>
+              </configuration>
+            </plugin>
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>                
+              <artifactId>maven-surefire-plugin</artifactId>
+              <version>2.13</version>
+                <dependencies>
+                  <dependency>
+                    <groupId>org.apache.maven.surefire</groupId>
+                    <artifactId>surefire-junit47</artifactId>
+                    <version>2.12</version>
+                  </dependency>
+                 </dependencies>         
+                 <configuration>
+                <includes>
+                  <include>**/*Tests.java</include>
+                </includes>
+                <excludedGroups>se.rosscom.timereader.service.IntegrationTests</excludedGroups>
+              </configuration>
+            </plugin>
+            
+        </plugins>
+    </build> 
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>se.rosscom</groupId>
+            <artifactId>readerDatabase</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- mercuryapi for production -->
+        <!-- Needs local installation:
+           mvn install:install-file -DgroupId=com.thingmagic -DartifactId=mercuryapi -Dversion=1.5.5.1 -Dpackaging=jar -Dfile=mercuryapi-1.5.5.1.jar -DgeneratePom=true
+        -->   
+        <dependency>
+            <groupId>com.thingmagic</groupId>
+            <artifactId>mercuryapi</artifactId>
+            <version>${mercuryapi.version}</version>
+            <type>jar</type>
+        </dependency>   
+
+        <!-- ltkjava for production -->
+        <!-- Needs local installation:
+           mvn install:install-file -DgroupId=org.llrp -DartifactId=ltkjava -Dversion=1.0.0.6 -Dpackaging=jar -Dfile=ltkjava-1.0.0.6.jar -DgeneratePom=true
+        -->   
+        <dependency>
+            <groupId>org.llrp</groupId>
+            <artifactId>ltkjava</artifactId>
+            <version>${ltkjava.version}</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>3.2.5.RELEASE</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>3.2.5.RELEASE</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>3.2.5.RELEASE</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.easymock</groupId>
+            <artifactId>easymock</artifactId>
+            <version>3.0</version>
+            <scope>test</scope>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>se.rosscom.timereader</groupId>
+            <artifactId>ReaderMessage</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>se.rosscom.timereader.message</groupId>
+            <artifactId>ReaderMessage</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>${javax.version}</version>
+            <type>jar</type>
+        </dependency>
+ 
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.6</version>   
+        </dependency>
+        
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.6</version>
+            <type>jar</type>            
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        
+    </dependencies>
+</project>

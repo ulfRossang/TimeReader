@@ -1,0 +1,504 @@
+Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1e67b872: startup date [Sun Apr 13 12:27:06 CEST 2014]; root of context hierarchy
+Overriding bean definition for bean 'readerRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=readerRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=readerRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+Overriding bean definition for bean 'competitionRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=competitionRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=competitionRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+Overriding bean definition for bean 'readerRegistrationRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=readerRegistrationRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=readerRegistrationRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@58c1670b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,timeReaderServiceRepositoryConfig,timeReaderServiceConfig,jndiDataConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,timeReaderRepositoryConfig,readerRepository,competitionRepository,readerRegistrationRepository,readerConfigurationRepository,registrationService,readerListenerService,readerService,dataSource]; root of factory hierarchy
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ae13544: startup date [Sun Apr 13 12:27:06 CEST 2014]; root of context hierarchy
+Overriding bean definition for bean 'readerRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=readerRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=readerRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+Overriding bean definition for bean 'competitionRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=competitionRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=competitionRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+Overriding bean definition for bean 'readerRegistrationRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=readerRegistrationRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=readerRegistrationRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7dc0f706: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,timeReaderServiceRepositoryConfig,timeReaderServiceConfig,jndiDataConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,timeReaderRepositoryConfig,readerRepository,competitionRepository,readerRegistrationRepository,readerConfigurationRepository,registrationService,readerListenerService,readerService,dataSource]; root of factory hierarchy
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@73ee04c8: startup date [Sun Apr 13 12:27:06 CEST 2014]; root of context hierarchy
+Overriding bean definition for bean 'readerRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=readerRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=readerRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+Overriding bean definition for bean 'competitionRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=competitionRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=competitionRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+Overriding bean definition for bean 'readerRegistrationRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=readerRegistrationRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=readerRegistrationRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@49dc7102: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,timeReaderServiceRepositoryConfig,timeReaderServiceConfig,jndiDataConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,timeReaderRepositoryConfig,readerRepository,competitionRepository,readerRegistrationRepository,readerConfigurationRepository,registrationService,readerListenerService,readerService,dataSource]; root of factory hierarchy
+Loaded JDBC driver: com.mysql.jdbc.Driver
+------------------------------------------------------------------
+Timereader: Start readers för: Vansbro Marathon 192.168.0.66/
+ReaderEventNotificationData misses optional parameter of type HoppingEvent
+ReaderEventNotificationData misses optional parameter of type GPIEvent
+ReaderEventNotificationData misses optional parameter of type ROSpecEvent
+ReaderEventNotificationData misses optional parameter of type ReportBufferLevelWarningEvent
+ReaderEventNotificationData misses optional parameter of type ReportBufferOverflowErrorEvent
+ReaderEventNotificationData misses optional parameter of type ReaderExceptionEvent
+ReaderEventNotificationData misses optional parameter of type RFSurveyEvent
+ReaderEventNotificationData misses optional parameter of type AISpecEvent
+ReaderEventNotificationData misses optional parameter of type AntennaEvent
+ReaderEventNotificationData misses optional parameter of type ConnectionCloseEvent
+ReaderEventNotificationData misses optional parameter of type ConnectionCloseEvent
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.READER_EVENT_NOTIFICATION received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+LLRP reader reported successfull connection attempt (ConnectionAttemptEvent.Status = Success)
+GET_READER_CAPABILITIES transact ....
+Message GET_READER_CAPABILITIES successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+encoded message does not contain parameter for optional perAntennaReceiveSensitivityRangeList
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type LLRPCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type LLRPCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type RegulatoryCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type RegulatoryCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type AirProtocolLLRPCapabilities
+encoded message misses non optional parameter airProtocolLLRPCapabilities
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.GET_READER_CAPABILITIES_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+ readerEventNotificationSpec not set
+ rOReportSpec not set
+ accessReportSpec not set
+ keepaliveSpec not set
+SET_READER_CONFIG transact ....
+Message SET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.SET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+DELETE_ROSPEC transact ....
+Message DELETE_ROSPEC successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.DELETE_ROSPEC_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CONFIG transact ....
+Message GET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+encoded message does not contain parameter for optional antennaPropertiesList
+encoded message does not contain parameter for optional antennaConfigurationList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+encoded message does not contain parameter for optional gPIPortCurrentStateList
+encoded message does not contain parameter for optional gPOWriteDataList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+message class org.llrp.ltk.generated.messages.GET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+ readerEventNotificationSpec not set
+ rOReportSpec not set
+ accessReportSpec not set
+ eventsAndReports not set
+SET_READER_CONFIG transact ....
+Message SET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.SET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CAPABILITIES transact ....
+Message GET_READER_CAPABILITIES successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+encoded message does not contain parameter for optional perAntennaReceiveSensitivityRangeList
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type LLRPCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type RegulatoryCapabilities
+encoded message misses non optional parameter airProtocolLLRPCapabilities
+message class org.llrp.ltk.generated.messages.GET_READER_CAPABILITIES_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CONFIG transact ....
+Message GET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+GET_READER_CONFIG_RESPONSE misses optional parameter of type Identification
+encoded message does not contain parameter for optional antennaConfigurationList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+encoded message does not contain parameter for optional gPIPortCurrentStateList
+encoded message does not contain parameter for optional gPOWriteDataList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.GET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CAPABILITIES transact ....
+Message GET_READER_CAPABILITIES successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type GeneralDeviceCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type LLRPCapabilities
+FrequencyInformation misses optional parameter of type FixedFrequencyTable
+FrequencyInformation misses optional parameter of type FixedFrequencyTable
+encoded message does not contain parameter for optional customList
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type AirProtocolLLRPCapabilities
+encoded message misses non optional parameter airProtocolLLRPCapabilities
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.GET_READER_CAPABILITIES_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CAPABILITIES transact ....
+Message GET_READER_CAPABILITIES successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+encoded message does not contain parameter for optional perAntennaReceiveSensitivityRangeList
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type LLRPCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type LLRPCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type RegulatoryCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type RegulatoryCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type AirProtocolLLRPCapabilities
+encoded message misses non optional parameter airProtocolLLRPCapabilities
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.GET_READER_CAPABILITIES_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CAPABILITIES transact ....
+Message GET_READER_CAPABILITIES successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+encoded message does not contain parameter for optional perAntennaReceiveSensitivityRangeList
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type LLRPCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type LLRPCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type RegulatoryCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type RegulatoryCapabilities
+GET_READER_CAPABILITIES_RESPONSE misses optional parameter of type AirProtocolLLRPCapabilities
+encoded message misses non optional parameter airProtocolLLRPCapabilities
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.GET_READER_CAPABILITIES_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CONFIG transact ....
+Message GET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+GET_READER_CONFIG_RESPONSE misses optional parameter of type Identification
+encoded message does not contain parameter for optional antennaConfigurationList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+encoded message does not contain parameter for optional gPIPortCurrentStateList
+encoded message does not contain parameter for optional gPOWriteDataList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.GET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+ readerEventNotificationSpec not set
+ rOReportSpec not set
+ accessReportSpec not set
+ keepaliveSpec not set
+ eventsAndReports not set
+SET_READER_CONFIG transact ....
+Message SET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.SET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CONFIG transact ....
+Message GET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+GET_READER_CONFIG_RESPONSE misses optional parameter of type Identification
+encoded message does not contain parameter for optional antennaPropertiesList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+encoded message does not contain parameter for optional gPIPortCurrentStateList
+encoded message does not contain parameter for optional gPOWriteDataList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.GET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+ readerEventNotificationSpec not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ rOReportSpec not set
+ accessReportSpec not set
+ keepaliveSpec not set
+ eventsAndReports not set
+SET_READER_CONFIG transact ....
+Message SET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.SET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CONFIG transact ....
+Message GET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+GET_READER_CONFIG_RESPONSE misses optional parameter of type Identification
+encoded message does not contain parameter for optional antennaPropertiesList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+encoded message does not contain parameter for optional gPIPortCurrentStateList
+encoded message does not contain parameter for optional gPOWriteDataList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.GET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+ readerEventNotificationSpec not set
+ rOReportSpec not set
+ accessReportSpec not set
+ keepaliveSpec not set
+ eventsAndReports not set
+SET_READER_CONFIG transact ....
+Message SET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.SET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CONFIG transact ....
+Message GET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+GET_READER_CONFIG_RESPONSE misses optional parameter of type Identification
+encoded message does not contain parameter for optional antennaPropertiesList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+encoded message does not contain parameter for optional gPIPortCurrentStateList
+encoded message does not contain parameter for optional gPOWriteDataList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.GET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+ readerEventNotificationSpec not set
+ rOReportSpec not set
+ accessReportSpec not set
+ keepaliveSpec not set
+ eventsAndReports not set
+SET_READER_CONFIG transact ....
+Message SET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.SET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+GET_READER_CONFIG transact ....
+Message GET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+GET_READER_CONFIG_RESPONSE misses optional parameter of type Identification
+encoded message does not contain parameter for optional antennaPropertiesList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+encoded message does not contain parameter for optional c1G2FilterList
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+C1G2SingulationControl misses optional parameter of type C1G2TagInventoryStateAwareSingulationAction
+encoded message does not contain parameter for optional customList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ReaderEventNotificationSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type ROReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type AccessReportSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type LLRPConfigurationStateValue
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+GET_READER_CONFIG_RESPONSE misses optional parameter of type KeepaliveSpec
+encoded message does not contain parameter for optional gPIPortCurrentStateList
+encoded message does not contain parameter for optional gPOWriteDataList
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+GET_READER_CONFIG_RESPONSE misses optional parameter of type EventsAndReports
+encoded message does not contain parameter for optional customList
+message class org.llrp.ltk.generated.messages.GET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+ readerEventNotificationSpec not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ c1G2TagInventoryStateAwareSingulationAction not set
+ rOReportSpec not set
+ accessReportSpec not set
+ keepaliveSpec not set
+ eventsAndReports not set
+SET_READER_CONFIG transact ....
+Message SET_READER_CONFIG successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.SET_READER_CONFIG_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+ENABLE_EVENTS_AND_REPORTS transact ....
+Message ENABLE_EVENTS_AND_REPORTS successfully transmitted
+DELETE_ROSPEC transact ....
+Message DELETE_ROSPEC successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.DELETE_ROSPEC_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+DELETE_ACCESSSPEC transact ....
+Message DELETE_ACCESSSPEC successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.DELETE_ACCESSSPEC_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+ periodicTriggerValue not set
+ gPITriggerValue not set
+ gPITriggerValue not set
+ gPITriggerValue not set
+ tagObservationTrigger not set
+ADD_ROSPEC transact ....
+Message ADD_ROSPEC successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.ADD_ROSPEC_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+ENABLE_ROSPEC transact ....
+Message ENABLE_ROSPEC successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.ENABLE_ROSPEC_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+START_ROSPEC transact ....
+Message START_ROSPEC successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.START_ROSPEC_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+STOP_ROSPEC transact ....
+Message STOP_ROSPEC successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.STOP_ROSPEC_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+CLOSE_CONNECTION transact ....
+Message CLOSE_CONNECTION successfully transmitted
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type FieldError
+LLRPStatus misses optional parameter of type ParameterError
+LLRPStatus misses optional parameter of type ParameterError
+message class org.llrp.ltk.generated.messages.CLOSE_CONNECTION_RESPONSE received in session (SOCKET, R: /192.168.0.66:5084, L: /192.168.0.10:51753, S: /192.168.0.66:5084)
+Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3bcd05cb: startup date [Sun Apr 13 12:27:07 CEST 2014]; root of context hierarchy
+Overriding bean definition for bean 'readerRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=readerRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=readerRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+Overriding bean definition for bean 'competitionRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=competitionRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=competitionRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+Overriding bean definition for bean 'readerRegistrationRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=readerRegistrationRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=readerRegistrationRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@36804139: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,timeReaderServiceRepositoryConfig,timeReaderServiceConfig,jndiDataConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,timeReaderRepositoryConfig,readerRepository,competitionRepository,readerRegistrationRepository,readerConfigurationRepository,registrationService,readerListenerService,readerService,dataSource]; root of factory hierarchy
+Loaded JDBC driver: com.mysql.jdbc.Driver
+Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b266842: startup date [Sun Apr 13 12:27:07 CEST 2014]; root of context hierarchy
+Overriding bean definition for bean 'readerRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=readerRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=readerRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+Overriding bean definition for bean 'competitionRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=competitionRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=competitionRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+Overriding bean definition for bean 'readerRegistrationRepository': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderRepositoryConfig; factoryMethodName=readerRegistrationRepository; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [se/rosscom/timereader/config/code/TimeReaderRepositoryConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=timeReaderServiceRepositoryConfig; factoryMethodName=readerRegistrationRepository; initMethodName=null; destroyMethodName=(inferred); defined in class se.rosscom.timereader.config.TimeReaderServiceRepositoryConfig]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@42b3b079: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,timeReaderServiceRepositoryConfig,timeReaderServiceConfig,jndiDataConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,timeReaderRepositoryConfig,readerRepository,competitionRepository,readerRegistrationRepository,readerConfigurationRepository,registrationService,readerListenerService,readerService,dataSource]; root of factory hierarchy
+Loaded JDBC driver: com.mysql.jdbc.Driver
