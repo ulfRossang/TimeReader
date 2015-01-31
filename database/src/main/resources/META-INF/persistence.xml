@@ -1,0 +1,21 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+    
+    <persistence-unit name="TimeReader">
+      <provider>org.hibernate.ejb.HibernatePersistence</provider>
+      <class>se.rosscom.timereader.jpa.ClientAuthorizationEntity</class>
+      <class>se.rosscom.timereader.jpa.CompetitionEntity</class>
+      <class>se.rosscom.timereader.jpa.CompetitionPartEntity</class>
+      <class>se.rosscom.timereader.jpa.ReaderEntity</class>
+      <properties>
+      	 <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
+      	 <property name="hibernate.hbm2ddl.auto" value="create-drop" />
+         <property name="hibernate.show_sql" value="true"/>
+         <property name="hibernate.cache.provider_class" value="org.hibernate.cache.HashtableCacheProvider"/>
+         <property name="hibernate.hbm2ddl.import_files" value="import.sql"/>
+     
+      </properties>
+   </persistence-unit>
+</persistence> 
