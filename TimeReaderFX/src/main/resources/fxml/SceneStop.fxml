@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane prefHeight="344.0000999999975" prefWidth="362.9998779296875" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" 
+     alignment="center" hgap="10" vgap="10" styleClass="root">
+    <padding><Insets top="25" right="25" bottom="10" left="25" /></padding>
+    
+    <Text id="timereader-text" text="TimeReader" 
+        GridPane.columnIndex="0" GridPane.rowIndex="0"
+        GridPane.columnSpan="2"/>
+    
+    <HBox spacing="10" alignment="bottom_center" 
+        GridPane.columnIndex="1" GridPane.rowIndex="4">
+        <Button fx:id="stopButton" id="ipad-dark-grey" mnemonicParsing="false" text="Stop Reader" />
+
+    </HBox>
+
+     
+    <stylesheets>
+        <URL value="@Styles.css" />
+    </stylesheets>    
+</GridPane>
