@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>se.rosscom</groupId>
+        <artifactId>TimeReader</artifactId>
+        <version>1.5-SNAPSHOT</version>
+    </parent>  
+
+    <groupId>se.rosscom</groupId>
+    <artifactId>readerDatabase</artifactId>
+    <packaging>jar</packaging>    
+    
+    <build>
+        <sourceDirectory>src/main</sourceDirectory>
+        <testSourceDirectory>src/test</testSourceDirectory>
+        <resources>
+          <resource>
+            <directory>src/main</directory>
+          </resource>
+        </resources>
+        <testResources>
+          <testResource>
+            <directory>src/test</directory>
+          </testResource>
+        </testResources>
+
+        <plugins>
+            <plugin>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                <source>1.7</source>
+                <target>1.7</target>
+              </configuration>
+            </plugin>
+            <plugin>
+              <artifactId>maven-surefire-plugin</artifactId>
+              <configuration>
+                <includes>
+                  <include>**/*Tests.java</include>
+                </includes>
+              </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
+    <repositories>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>springsource-milestone</id>
+          <name>Spring Framework Milestone Repository</name>
+          <url>http://maven.springframework.org/milestone</url>
+        </repository>
+      </repositories>
+
+      <dependencies>
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-jdbc</artifactId>
+          <version>3.1.0.RELEASE</version>
+          <scope>compile</scope>
+        </dependency>
+        <dependency>
+          <groupId>javax.inject</groupId>
+          <artifactId>javax.inject</artifactId>
+          <version>1</version>
+          <scope>compile</scope>
+        </dependency>
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context</artifactId>
+          <version>3.1.0.RELEASE</version>
+          <scope>compile</scope>
+        </dependency>
+        <dependency>
+          <groupId>hsqldb</groupId>
+          <artifactId>hsqldb</artifactId>
+          <version>1.8.0.10</version>
+          <scope>compile</scope>
+        </dependency>
+        <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-test</artifactId>
+          <version>3.1.0.RELEASE</version>
+          <scope>test</scope>
+        </dependency>
+        <dependency>
+          <groupId>cglib</groupId>
+          <artifactId>cglib-nodep</artifactId>
+          <version>2.2</version>
+          <scope>compile</scope>
+        </dependency>
+        <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.11</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.hibernate.javax.persistence</groupId>
+          <artifactId>hibernate-jpa-2.0-api</artifactId>
+          <version>1.0.1.Final</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>javax.validation</groupId>
+          <artifactId>validation-api</artifactId>
+          <version>1.0.0.GA</version>
+          <type>jar</type>
+        </dependency>
+        <dependency>
+          <groupId>org.hibernate</groupId>
+          <artifactId>hibernate-search-engine</artifactId>
+          <version>4.2.0.Final</version>
+          <type>jar</type>
+        </dependency>
+         <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.6</version>   
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jdbc-core</artifactId>
+            <version>1.0.0.RELEASE</version>
+            <type>jar</type>
+            <exclusions>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>                
+            </exclusions>            
+
+        </dependency>
+      </dependencies>
+  
+      <properties>
+        <project.build.sourceEncoding>UTF8</project.build.sourceEncoding>
+      </properties>
+</project>
