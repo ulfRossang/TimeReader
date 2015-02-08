@@ -2,7 +2,7 @@
 -- ----------------------------
 --  Table structure for `Competition`
 -- ----------------------------
---DROP TABLE IF EXISTS Competition;
+-- DROP TABLE IF EXISTS Competition;
 CREATE TABLE Competition (
   CompetitionId smallint PRIMARY KEY,
   CompetitionDate date not null,

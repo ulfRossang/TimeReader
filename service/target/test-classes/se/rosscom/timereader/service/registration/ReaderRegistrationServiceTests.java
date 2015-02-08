@@ -28,20 +28,33 @@ public class ReaderRegistrationServiceTests {
             reg.setReaderDatetime(new Date());
 	}
 
-        
-	@Test
-	public void testRegTag() throws ReaderServiceException {
+//        @Test
+	public void testReaderRegistration() throws ReaderServiceException {
+            //regTag
             registrationService.regTag(reg);
+            System.out.println("regTagOk!");
             assert true;
-	}
-        
-        
-        @Test
-        public void testLoadStartId() throws ReaderServiceException {
+            
+            // loadStartid
             HashMap<String, Long> startIds = registrationService.loadStartIds("Vansbro Marathon");
             if (!startIds.isEmpty()) {
                 System.out.println(startIds.values());
             }
-        }
+            
+        }        
+//	@Test
+//	public void testRegTag() throws ReaderServiceException {
+//            registrationService.regTag(reg);
+//            assert true;
+//	}
+//        
+//        
+//        @Test
+//        public void testLoadStartId() throws ReaderServiceException {
+//            HashMap<String, Long> startIds = registrationService.loadStartIds("Vansbro Marathon");
+//            if (!startIds.isEmpty()) {
+//                System.out.println(startIds.values());
+//            }
+//        }
         
 }

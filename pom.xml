@@ -12,8 +12,8 @@
         <module>service</module>
         <module>readerDatabase</module>
         <module>TimeReaderFX</module>
-    <module>readerEar</module>
-    <module>TimeReaderEnterprise</module>
+        <module>readerEar</module>
+        <module>TimeReaderEnterprise</module>
   </modules>
     
 

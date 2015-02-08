@@ -4,3 +4,4 @@
 *.hg*
 */target*
 
+/TimeReaderEnterprise/TimeReaderEnterprise-ear/target/

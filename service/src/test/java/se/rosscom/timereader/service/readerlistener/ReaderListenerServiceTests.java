@@ -7,6 +7,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 import org.junit.Before;
 import org.junit.Test;
+import se.rosscom.timereader.jpa.ReaderEntity;
 import se.rosscom.timereader.service.ServiceTestConfig;
 import se.rosscom.timereader.serviceimpl.reader.ReaderMock;
 
@@ -26,15 +27,30 @@ public class ReaderListenerServiceTests {
 
 	}
 
-        
-	@Test
+
+//        @Test
+	public void testReaderListener() throws ReaderServiceException {
+            // AddReader
+            ReaderMock reader = new ReaderMock();
+            readerListenerService.addReader(reader);
+            System.out.println("AddReaderOk!");
+            assert true;
+
+            // FetchReaderMocks
+            List<ReaderMock> readerMocks = readerListenerService.fetchReaderMocks();
+            assertThat(readerMocks.size(), equalTo(2));
+            System.out.println("FetchReaderMocksOk! " );
+            
+            
+        }
+//	@Test
 	public void testAddReader() throws ReaderServiceException {
             ReaderMock reader = new ReaderMock();
             readerListenerService.addReader(reader);
             assert true;
 	}
         
-        @Test
+//        @Test
 	public void testFetchReaderMocks() throws ReaderServiceException {
     
             

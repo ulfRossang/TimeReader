@@ -30,7 +30,7 @@
         <groovy.version>2.1.5</groovy.version>
     </properties>  
     <build>
-        <finalName>ReaderMessage2</finalName>
+        <finalName>ReaderMessage</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>

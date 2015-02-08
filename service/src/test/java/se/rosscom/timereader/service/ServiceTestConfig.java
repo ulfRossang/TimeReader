@@ -27,7 +27,7 @@ public class ServiceTestConfig {
             AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
             ctx.getEnvironment().setDefaultProfiles("dev");
 //            ctx.getEnvironment().setDefaultProfiles("production");
-            ctx.register(TimeReaderServiceRepositoryConfig.class);
+//            ctx.register(TimeReaderServiceRepositoryConfig.class);
             ctx.register(TimeReaderServiceConfig.class, JndiDataConfig.class);
             ctx.refresh();
 

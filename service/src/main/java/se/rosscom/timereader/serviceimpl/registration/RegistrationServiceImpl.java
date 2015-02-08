@@ -9,16 +9,12 @@ package se.rosscom.timereader.serviceimpl.registration;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.jms.JMSException;
 import se.rosscom.timereader.dto.ReaderCalculateResultDTO;
 import se.rosscom.timereader.dto.ReaderRegistrationDTO;
-import se.rosscom.timereader.exception.ReaderMessageException;
 import se.rosscom.timereader.exception.ReaderServiceException;
 import se.rosscom.timereader.jpa.StartIdEntity;
 import se.rosscom.timereader.jpa.repository.ReaderRegistrationRepository;
-import se.rosscom.timereader.message.ReaderMessageSender;
 import se.rosscom.timereader.service.registration.RegistrationService;
 
 /**
@@ -30,7 +26,7 @@ public class RegistrationServiceImpl implements RegistrationService {
     private final ReaderRegistrationRepository readerRegistrationRepository;
     private HashMap<String, Long> startMap = null;
     static final Logger log = Logger.getLogger(RegistrationServiceImpl.class.getName());
-    private ReaderMessageSender sender;
+//    private ReaderMessageSender sender;
     
     
 
@@ -43,13 +39,13 @@ public class RegistrationServiceImpl implements RegistrationService {
     public void regTag(ReaderRegistrationDTO readerRegistration) throws ReaderServiceException {
         log.info("Timereader reg tag. StartNr: " + startMap.get(readerRegistration.getRFID()) + " RFID: " + readerRegistration.getRFID() + " Time: " + readerRegistration.getReaderDatetime() );
         readerRegistrationRepository.addReg((long) readerRegistration.getReaderId(), readerRegistration.getRFID(), (long) readerRegistration.getAntennId(), readerRegistration.getReaderDatetime(), new Date(), (long) readerRegistration.getReaderCount());
-        try {
-            sender.sendMessage(readerRegistration.toString());
-        } catch (ReaderMessageException ex) {
-            Logger.getLogger(RegistrationServiceImpl.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (JMSException ex) {
-            Logger.getLogger(RegistrationServiceImpl.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            sender.sendMessage(readerRegistration.toString());
+//        } catch (ReaderMessageException ex) {
+//            Logger.getLogger(RegistrationServiceImpl.class.getName()).log(Level.SEVERE, null, ex);
+//        } catch (JMSException ex) {
+//            Logger.getLogger(RegistrationServiceImpl.class.getName()).log(Level.SEVERE, null, ex);
+//        }
     }
 
     @Override
