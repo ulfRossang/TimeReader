@@ -39,6 +39,8 @@ public class ReaderServiceImpl implements ReaderService {
         this.registrationServiceImpl = registrationServiceImpl;
         this.readerListeners = new HashMap();
     }
+    
+    
 
     @Override
     public void startReaders(String competitionName) throws ReaderServiceException {

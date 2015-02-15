@@ -22,6 +22,12 @@
             <name>Repository -</name>
             <url>http://repo.maven.apache.org/maven2/</url>
         </repository>
+        <repository>
+            <id>snapshot-repository.java.net</id>
+            <name>Java.net Snapshot Repository for Maven</name>
+            <url>https://maven.java.net/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
     </repositories>    
 
     <properties>

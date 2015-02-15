@@ -13,12 +13,13 @@ import se.rosscom.timereader.service.ServiceTestConfig;
 public class ReaderServiceTests {
 
     private ReaderService readerService;
+    private ServiceTestConfig serviceTestConfig;
         
         
 	@Before
 	public void setUp() {
             
-            ServiceTestConfig serviceTestConfig = new ServiceTestConfig();
+            serviceTestConfig = new ServiceTestConfig();
             readerService = serviceTestConfig.readerService;
 
 	}
@@ -97,5 +98,5 @@ public class ReaderServiceTests {
             readerService.stopReaders("Vansbro Marathon");
             assert true;
 	}   
-
+       
 }

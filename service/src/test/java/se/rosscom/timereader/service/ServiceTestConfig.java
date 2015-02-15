@@ -14,6 +14,7 @@ import se.rosscom.timereader.service.registration.RegistrationService;
 
 public class ServiceTestConfig {
 
+    public AnnotationConfigApplicationContext ctx;
     public ReaderService readerService;
     public ReaderListenerService readerlistenerService;
     public RegistrationService registrationService;
@@ -24,7 +25,7 @@ public class ServiceTestConfig {
 
     public ServiceTestConfig() {
     
-            AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
+            ctx = new AnnotationConfigApplicationContext();
             ctx.getEnvironment().setDefaultProfiles("dev");
 //            ctx.getEnvironment().setDefaultProfiles("production");
 //            ctx.register(TimeReaderServiceRepositoryConfig.class);
